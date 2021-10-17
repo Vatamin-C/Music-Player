@@ -1,0 +1,66 @@
+body {
+    background-color: #96BAFF;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    background-color: #EEEEEE;
+    max-width: 600px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.songsContainer {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    user-select: none;
+    max-width: 400px;
+    border-radius: 20px;
+}
+
+.songsList {
+    margin-bottom: 5px;
+}
+
+.songsContainer :hover {
+    background-color: #476072;
+    border-radius: 5px;
+}
+
+.duration {
+    margin-left: 50px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.progress {
+    max-width: 250px;
+    max-height: 5px;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    background-color: #8E0505;
+    width: 0px;
+}
+
+.controlBtn {
+    margin-left: 50px;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+#playerBtnPause {
+    display: none;
+}
+
+#playerBtnBackward {
+    margin-right: 20px;
+}
+
+#playerBtnForward {
+    margin-left: 20px;
+}
+
